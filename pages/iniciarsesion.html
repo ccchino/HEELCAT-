@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HELLCAT, Iniciar, Sesion, Google, Autos">
+    <meta name="description" content="Inicia sesion aqui, para formar parte de la comunidad HELLCAT">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/a44b69e62347cdd2cd120c6f792eb35d-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css"> 
+    <title>HEELCAT | INICIAR SESION</title>
+</head>
+<body  class="overflow">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container">
+                <a href="../index.html"><img class="logo" src="../img/a44b69e62347cdd2cd120c6f792eb35d-removebg-preview.png" alt="logo"></a>
+                <a class="navbar-brand fs-4" href="../index.html"><h1>HELLCAT</h1></a>
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HELLCAT</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                  <ul class="navbar-nav justify-content-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active mx-2" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link active" href="../pages/clasicos.html">Clasicos</a>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                      <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Velocidad
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../pages/deportivos.html">Deportivos</a></li>
+                        <li><a class="dropdown-item" href="../pages/superdeportivos.html">Superdeportivos</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link active" href="../pages/iconicos.html">Iconicos</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link active" href="../pages/quienes.html">Quienes somos??</a>
+                    </li>
+                  </ul>
+                  <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                    <a href="../pages/iniciarsesion.html" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: red;">Login</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="d-flex justify-content-center align-items-center vh-100">
+        <div class="bg-white p-5 rounded-5 text-dark shadow" style="width: 25rem">
+            <div class="d-flex justify-content-center">
+                <img src="../img/icono.png" alt="login-icon" style="height: 7rem"/>
+            </div>
+            <div class="text-center fs-1 fw-bold">Login</div>
+            <div class="input-group mt-4">
+                <div class="input-group-text bg-info">
+                    <img src="../img/username-icon.svg" alt="username-icon"style="height: 1rem"/>
+                </div>
+                <input class="form-control bg-light" type="text"placeholder="Username"/>
+            </div>
+            <div class="input-group mt-1">
+                <div class="input-group-text bg-info">
+                    <img src="../img/password-icon.svg" alt="password-icon" style="height: 1rem"/>
+                </div>
+                <input class="form-control bg-light" type="password" placeholder="Password"/>
+            </div>
+            <div class="d-flex justify-content-around mt-1">
+                <div class="d-flex align-items-center gap-1">
+                    <input class="form-check-input" type="checkbox" />
+                    <div class="pt-1" style="font-size: 0.9rem">Remember me</div>
+                </div>
+                <div class="pt-1">
+                    <a href="#" class="text-decoration-none text-info fw-semibold fst-italic" style="font-size: 0.9rem"
+                    >Forgot your password?</a>
+                </div>
+            </div>
+            <div class="btn btn-info text-white w-100 mt-4 fw-semibold shadow-sm">
+                Login
+            </div>
+            <div class="d-flex gap-1 justify-content-center mt-1">
+                <div>Don't have an account?</div>
+                <a href="#" class="text-decoration-none text-info fw-semibold"
+                >Register</a>
+            </div>
+            <div class="p-3">
+                <div class="border-bottom text-center" style="height: 0.9rem">
+                <span class="bg-white px-3">or</span>
+            </div>
+        </div>
+        <div class="btn d-flex gap-2 justify-content-center border mt-3 shadow-sm">
+            <img src="../img/google-icon.svg" alt="google-icon" style="height: 1.6rem"/>
+            <div class="fw-semibold text-secondary">Continue with Google</div>
+        </div>
+    </div>
+
+      
+    </main>
+    <footer>
+        <div class="copy">
+            <small>&copy; 2024 <b>HELLCAT</b> - Todos los Derechos Reservados</small>
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

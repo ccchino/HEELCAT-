@@ -1,0 +1,91 @@
+main{
+    .d-item{
+        height: 500px;
+    }
+    .d-img{
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.6);
+    }
+    
+    h2{
+        font-family: "Pirata One", system-ui; 
+        font-weight: 400; 
+        font-size: 100px; 
+        font-style: normal; 
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h3, h4{
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        h4:hover{
+            color: red;
+        }
+    }
+    
+    h5{
+        font-family: "Staatliches", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        color: white;
+        margin: 20px;
+        text-decoration: none;
+        animation-duration: 5s;
+        animation-name: aparece;
+        animation-iteration-count: calc(2);
+        @keyframes aparece{
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+    }
+    .old{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    .nissan{
+        width: 1000px;
+        height: 700px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+    .card{
+        margin: 10px;
+        .card:hover{
+            transform: scale(1.1,1.1);
+        }
+    }
+    h6{
+        font-family: "Staatliches", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    
+    }
+    .accordion{
+        --bs-accordion-btn-bg: grey;
+        --bs-accordion-btn-color: white;
+        --bs-accordion-active-bg: rgb(130, 0, 0);
+        --bs-accordion-active-color: rgb(255, 255, 255);
+        --bs-accordion-bg: black;
+        --bs-accordion-color: white;
+    }
+    .banner{
+        height: 700px;
+        width: 1000px;
+        margin: auto;
+    }
+}
